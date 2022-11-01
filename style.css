@@ -139,7 +139,7 @@ li {
     
     /* CARD BACKGROUNDS */
     
-    .card-1 {
+    .card {
       background: radial-gradient(#1fe4f5, #3fbafe);
     }
     
@@ -158,6 +158,16 @@ li {
     .card-5 {
       background: radial-gradient(#f588d8, #c0a3e5);
     }
+
+    /* The "show" class is added to the filtered elements */
+.show {
+  display: grid;
+}
+
+.hide
+{
+  display: none;
+}
     
     /* RESPONSIVE */
     
