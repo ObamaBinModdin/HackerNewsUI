@@ -115,6 +115,9 @@ li {
     
     .card__exit {
       grid-row: 1/2;
+      font-size: 35px;
+      top:-25px;
+      padding-right: 30px;
       justify-self: end;
     }
     
