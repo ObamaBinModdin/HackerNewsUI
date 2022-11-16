@@ -122,8 +122,12 @@ li {
     }
     
     .card__icon {
-      grid-row: 2/3;
+      /*grid-row: 2/3;*/
+      /*top:-35px;*/
+      padding-top: 25px;
       font-size: 30px;
+      flex-direction: row;
+      cursor: pointer; /* Mouse pointer on hover */
     }
     
     .card__title {
@@ -186,6 +190,20 @@ li {
       font-size: 1.5em;
       padding: 12px 20px;
       z-index: 1;
+    }
+
+    .like {
+      background: none; /* Blue background */
+      border: none; /* Remove borders */
+      color: white; /* White text */
+      /*padding: 12px 16px; /* Some padding */
+      cursor: pointer; /* Mouse pointer on hover */
+      /*grid-row: 1/2;*/
+      font-size: 35px;
+      top:-35px;
+      padding-right: 30px;
+      justify-self: end;
+      flex-direction: row;
     }
     
 
